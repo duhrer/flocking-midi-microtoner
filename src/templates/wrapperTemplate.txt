@@ -1,0 +1,5 @@
+(function (fluid, flock) {
+    "use strict";
+    fluid.registerNamespace("flock.mmt");
+    flock.mmt.tunings = %jsonAsString;
+})(fluid, flock);
