@@ -59,6 +59,15 @@ flock.mmt.tuningGenerator.generate = function (that) {
 fluid.defaults("flock.mmt.tuningGenerator", {
     gradeNames: ["fluid.component"],
     scales: {
+        // TODO: Come up with an algorithm for non-multiples of 12.
+        //"5-EDO": {
+        //    notesPerOctave: 5,
+        //    centerPitch:    60
+        //},
+        //"7-EDO": {
+        //    notesPerOctave: 7,
+        //    centerPitch:    60
+        //},
         "12-EDO": {
             notesPerOctave: 12,
             centerPitch:    60
